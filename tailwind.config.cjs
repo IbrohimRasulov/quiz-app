@@ -11,7 +11,7 @@ module.exports = {
         bg_success: "#94D7A2",
         bg_error: "#F8BCBC",
         horizontalLine: "#DBDEF0",
-        color_disabled: "opacity: 0.5",
+        btn_border: "#4D5B9E",
       },
       fontSize: {
         small: "10.25px",

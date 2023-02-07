@@ -1,12 +1,12 @@
 import React from "react";
+import Intro from "./components/pages/Intro";
 
-const App = () => {
+function App() {
   return (
     <div className="App">
-      <h1 className="text-primary">Hello world</h1>
-      <button className="">Hello</button>
+      <Intro />
     </div>
   );
-};
+}
 
 export default App;
