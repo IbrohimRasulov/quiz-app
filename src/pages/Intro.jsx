@@ -16,7 +16,7 @@ const Intro = () => {
         <NavLink to="quiz">
           <Button
             content="Start quiz"
-            className="text-secondary bg-bg_primary rounded-large px-7 mt-6 mb-0"
+            className="text-secondary bg-bg_primary px-7 mt-6 mb-0 rounded-large hover:bg-primary"
           />
         </NavLink>
         <Loader />

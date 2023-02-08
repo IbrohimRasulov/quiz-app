@@ -10,7 +10,11 @@ const SingleQuestion = ({ question }) => {
       <p className='text-primary text-medium font-bold'>{question.question}</p>
       <div className='my-2'>
         {options.map(option =>
-          <Button key={nanoid()} content={option} className="border-btn_border text-primary text-small px-4 py-2 ml-0 mr-5 my-1" />
+          <Button
+            key={nanoid()}
+            content={option}
+            className="border-btn_border rounded-small text-primary text-small px-4 py-2 ml-0 mr-5 my-1 hover:bg-bg_primary hover:text-secondary"
+          />
         )}
       </div>
       <hr className='border-horizontalLine my-4' />
