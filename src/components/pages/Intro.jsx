@@ -13,7 +13,7 @@ const Intro = () => {
           <h2 className="text-primary text-large">Quizzical</h2>
           <p className="text-primary text-medium">Some description if needed</p>
 
-          <NavLink to="quiz">
+          <NavLink to="questions">
             <Button
               content="Start quiz"
               className="text-secondary bg-bg_primary rounded-large px-7 mt-6 mb-0"
