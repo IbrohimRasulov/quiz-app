@@ -1,8 +1,9 @@
 import React from 'react'
-import SingleQuestion from '../atoms/SingleQuestion'
 import BackgroundImage from '../layout/BackgroundImage'
 import Container from '../layout/Container'
+import QuestionsList from '../QuestionsList'
 import useFetch from '../../hooks/useFetch'
+import ScreenCenter from '../layout/ScreenCenter'
 
 const Questions = () => {
   const { data: questions, isPending, error } = useFetch('https://opentdb.com/api.php?amount=5&category=9&type=multiple')
@@ -10,10 +11,12 @@ const Questions = () => {
   return (
     <BackgroundImage className="bg-test_background">
       <Container>
-        {isPending && <div>Loading...</div>}
-        {error && <div>{error}</div>}
+        <ScreenCenter>
+          {isPending && <div>Loading questions...</div>}
+          {error && <div>{error}</div>}
+        </ScreenCenter>
         {questions && (
-          <SingleQuestion />
+          <QuestionsList questions={questions.results} />
         )}
       </Container>
     </BackgroundImage>

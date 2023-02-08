@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Intro from "./components/pages/Intro"
-import Questions from "./components/pages/Questions"
+import Quiz from "./components/pages/Quiz"
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Intro />} />
-          <Route path="questions" element={<Questions />} />
+          <Route path="quiz" element={<Quiz />} />
         </Routes>
       </div>
     </BrowserRouter>
