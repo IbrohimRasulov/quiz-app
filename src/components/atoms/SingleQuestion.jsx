@@ -1,18 +1,19 @@
 import React from 'react'
 import { nanoid } from 'nanoid'
 import Button from './Button'
+import parse from 'html-react-parser';
 
 const SingleQuestion = ({ question }) => {
   const options = [...question.incorrect_answers, question.correct_answer]
 
   return (
     <div>
-      <p className='text-primary text-medium font-bold'>{question.question}</p>
+      <p className='text-primary text-medium font-bold'>{parse(question.question)}</p>
       <div className='my-2'>
         {options.map(option =>
           <Button
             key={nanoid()}
-            content={option}
+            content={parse(option)}
             className="border-btn_border rounded-small text-primary text-small px-4 py-2 ml-0 mr-5 my-1 hover:bg-bg_primary hover:text-secondary"
           />
         )}
