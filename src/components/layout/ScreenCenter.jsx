@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ScreenCenter({ children, className }) {
+const ScreenCenter = ({ children, className }) => {
   return (
     <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ${className}`}>
       {children}
@@ -8,4 +8,4 @@ function ScreenCenter({ children, className }) {
   )
 }
 
-export default ScreenCenter;
+export default ScreenCenter

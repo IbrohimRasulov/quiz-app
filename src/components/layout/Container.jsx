@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Container({ children, className }) {
+const Container = ({ children, className }) => {
   return (
     <div className={`mx-18 my-10 ${className}`}>
       {children}
@@ -8,4 +8,4 @@ function Container({ children, className }) {
   )
 }
 
-export default Container;
+export default Container

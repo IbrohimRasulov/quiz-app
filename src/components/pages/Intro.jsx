@@ -1,9 +1,9 @@
-import React from "react";
-import Button from "../atoms/Button";
-import Container from "../layout/Container";
-import ScreenCenter from "../layout/ScreenCenter";
+import React from "react"
+import Button from "../atoms/Button"
+import Container from "../layout/Container"
+import ScreenCenter from "../layout/ScreenCenter"
 
-function Intro() {
+const Intro = () => {
   return (
     <div className="bg-intro_background bg-no-repeat bg-cover bg-center bg-fixed w-100">
       <ScreenCenter className="text-center">
@@ -17,7 +17,7 @@ function Intro() {
         </Container>
       </ScreenCenter>
     </div>
-  );
+  )
 }
 
-export default Intro;
+export default Intro
