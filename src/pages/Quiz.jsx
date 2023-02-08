@@ -6,13 +6,13 @@ import useFetch from '../hooks/useFetch'
 import ScreenCenter from '../components/layout/ScreenCenter'
 
 const Questions = () => {
-  const { data: questions, isPending, error } = useFetch('https://opetdb.com/api.php?amount=5&category=9&type=multiple')
+  const { data: questions, isPending, error } = useFetch('https://opentdb.com/api.php?amount=5&category=9&type=multiple')
 
   return (
     <BackgroundImage className="bg-test_background">
       <Container>
         <ScreenCenter>
-          {isPending && <div>Loading questions...</div>}
+          {isPending && <div className='text-medium'>Loading questions...</div>}
           {error && <div>{error}</div>}
         </ScreenCenter>
         {questions && (
