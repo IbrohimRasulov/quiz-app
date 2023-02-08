@@ -24,8 +24,8 @@ module.exports = {
         large: "15px",
       },
       backgroundImage: {
-        intro_background: "url('intro-background.png')",
-        test_background: "url('questions-background.png')",
+        intro_background: "url('/src/assets/intro-background.png')",
+        test_background: "url('/src/assets/questions-background.png')",
       },
       margin: {
         18: "70px",
