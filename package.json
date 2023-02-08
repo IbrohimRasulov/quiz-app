@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^9.0.2",
     "js-confetti": "^0.11.0",
+    "nanoid": "^4.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1"

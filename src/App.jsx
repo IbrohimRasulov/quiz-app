@@ -1,8 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
-import Intro from "./components/pages/Intro"
-import Quiz from "./components/pages/Quiz"
+import Intro from "./pages/Intro"
+import Quiz from "./pages/Quiz"
 
 function App() {
   return (

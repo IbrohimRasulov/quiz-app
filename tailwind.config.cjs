@@ -14,9 +14,9 @@ module.exports = {
         btn_border: "#4D5B9E",
       },
       fontSize: {
-        small: "10.25px",
-        medium: "16px",
-        large: "31.25px",
+        small: "15px",
+        medium: "18px",
+        large: "36px",
       },
       borderRadius: {
         small: "7.8px",
@@ -26,9 +26,6 @@ module.exports = {
       backgroundImage: {
         intro_background: "url('/src/assets/intro-background.png')",
         test_background: "url('/src/assets/questions-background.png')",
-      },
-      margin: {
-        18: "70px",
       },
     },
   },

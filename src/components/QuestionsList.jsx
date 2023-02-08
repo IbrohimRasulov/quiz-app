@@ -1,10 +1,12 @@
 import React from 'react'
+import SingleQuestion from './atoms/SingleQuestion'
+import { nanoid } from 'nanoid'
 
 const QuestionsList = ({ questions }) => {
   return (
     <div>
       {questions.map(question =>
-        <li>{question.question}</li>
+        <SingleQuestion key={nanoid()} question={question} />
       )}
     </div>
   )

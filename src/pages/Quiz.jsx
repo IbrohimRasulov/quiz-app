@@ -1,12 +1,12 @@
 import React from 'react'
-import BackgroundImage from '../layout/BackgroundImage'
-import Container from '../layout/Container'
-import QuestionsList from '../QuestionsList'
-import useFetch from '../../hooks/useFetch'
-import ScreenCenter from '../layout/ScreenCenter'
+import BackgroundImage from '../components/layout/BackgroundImage'
+import Container from '../components/layout/Container'
+import QuestionsList from '../components/QuestionsList'
+import useFetch from '../hooks/useFetch'
+import ScreenCenter from '../components/layout/ScreenCenter'
 
 const Questions = () => {
-  const { data: questions, isPending, error } = useFetch('https://opentdb.com/api.php?amount=5&category=9&type=multiple')
+  const { data: questions, isPending, error } = useFetch('https://opetdb.com/api.php?amount=5&category=9&type=multiple')
 
   return (
     <BackgroundImage className="bg-test_background">
