@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Loader = ({className}) => {
+const Loader = () => {
   return (
     <div className="loader m-auto mt-10">
       <div className="circle"></div>
