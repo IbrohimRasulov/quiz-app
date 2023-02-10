@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
-import BackgroundImage from '../components/layout/BackgroundImage'
-import Container from '../components/layout/Container'
+import React from 'react'
+import BackgroundImage from '../components/layouts/BackgroundImage'
+import Container from '../components/layouts/Container'
 import QuestionsList from '../components/QuestionsList'
 import useFetch from '../hooks/useFetch'
 import ApiStatusMsg from '../components/ApiStatusMsg'
 
-const Questions = () => {
+const Quiz = () => {
   const { data: questions, isPending, error } = useFetch('https://opentdb.com/api.php?amount=4&category=9&type=multiple')
 
   return (
@@ -18,4 +18,4 @@ const Questions = () => {
   )
 }
 
-export default Questions
+export default Quiz

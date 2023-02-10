@@ -1,5 +1,5 @@
 import React from 'react'
-import SingleQuestion from './atoms/SingleQuestion'
+import SingleQuestion from './SingleQuestion'
 import { nanoid } from 'nanoid'
 import Button from './atoms/Button'
 

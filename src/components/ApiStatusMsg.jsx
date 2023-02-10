@@ -1,5 +1,5 @@
 import React from 'react'
-import ScreenCenter from './layout/ScreenCenter'
+import ScreenCenter from './layouts/ScreenCenter'
 
 const ApiStatusMsg = ({ isPending, error }) => {
   return (
