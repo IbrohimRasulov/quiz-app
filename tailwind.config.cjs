@@ -24,8 +24,8 @@ module.exports = {
         large: "15px",
       },
       backgroundImage: {
-        intro_background: "url('/src/assets/intro-background.png')",
-        test_background: "url('/src/assets/questions-background.png')",
+        intro_background: "url('/src/assets/background/intro-background.png')",
+        test_background: "url('/src/assets/background/questions-background.png')",
       },
     },
   },
