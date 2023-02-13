@@ -4,9 +4,10 @@ import Container from '../components/layouts/Container'
 import QuestionsList from '../components/QuestionsList'
 import useFetch from '../hooks/useFetch'
 import ApiStatusMsg from '../components/ApiStatusMsg'
+import { questionsApiUrl as url } from '../utils/urls'
 
 const Quiz = () => {
-  const { data: questions, isPending, error } = useFetch('https://opentdb.com/api.php?amount=4&category=9&type=multiple')
+  const { data: questions, isPending, error } = useFetch(url)
 
   return (
     <BackgroundImage className="bg-test_background">
