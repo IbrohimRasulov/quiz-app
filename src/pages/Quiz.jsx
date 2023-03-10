@@ -1,9 +1,9 @@
 import React from 'react'
-import BackgroundImage from '../components/layouts/BackgroundImage'
-import Container from '../components/layouts/Container'
-import QuestionsList from '../components/QuestionsList'
+import BackgroundImage from '../shared/layouts/BackgroundImage'
+import Container from '../shared/layouts/Container'
+import QuestionsList from '../components/_Quiz/QuestionsList.jsx'
 import useFetch from '../hooks/useFetch'
-import ApiStatusMsg from '../components/ApiStatusMsg'
+import ApiStatusMsg from '../components/_Quiz/ApiStatusMsg.jsx'
 import { questionsApiUrl as url } from '../utils/urls'
 
 const Quiz = () => {
