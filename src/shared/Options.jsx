@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './Button'
-import shuffle from '../../utils/shuffle'
+import shuffle from '../utils/shuffle'
 import { nanoid } from 'nanoid'
 import parse from 'html-react-parser'
 

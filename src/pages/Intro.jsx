@@ -1,8 +1,8 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import Button from "../shared/atoms/Button"
-import BackgroundImage from "../shared/layouts/BackgroundImage"
-import ScreenCenter from "../shared/layouts/ScreenCenter"
+import Button from "../shared/Button"
+import BackgroundImage from "../shared/BackgroundImageLayout"
+import ScreenCenter from "../shared/ScreenCenterLayout"
 import Loader from '../components/_Intro/Loader.jsx'
 
 const Intro = () => {

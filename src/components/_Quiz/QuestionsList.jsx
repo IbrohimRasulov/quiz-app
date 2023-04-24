@@ -1,7 +1,7 @@
 import React from 'react'
-import SingleQuestion from './SingleQuestion.jsx'
 import { nanoid } from 'nanoid'
-import Button from '../../shared/atoms/Button'
+import SingleQuestion from './SingleQuestion.jsx'
+import Button from '../../shared/Button'
 
 const QuestionsList = ({ questions }) => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import parse from 'html-react-parser'
-import Options from '../../shared/atoms/Options'
+import Options from '../../shared/Options'
 
 const SingleQuestion = ({ question }) => {
   return (
