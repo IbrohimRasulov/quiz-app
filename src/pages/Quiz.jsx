@@ -8,7 +8,7 @@ import { questionsApiUrl as url } from '../utils/urls'
 
 const Quiz = () => {
   const { data: questions, isPending, error } = useFetch(url)
-
+  // console.log(data)
   return (
     <BackgroundImage className="bg-test_background">
       <Container>
